@@ -1,0 +1,31 @@
+5
+.\mysql-relay-bin-2020@002d11@002d09@002014@003a25@003a45@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.000003
+4
+
+0
+0
+0
+20-11-17 11:20:48 7 [Note] Initialized Master_info from 'master-2020@002d11@002d09@002014@003a25@003a45@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.info'
+2020-11-17 11:20:48 7 [Note] Added new Master_info '2020-11-09 14:25:45 0 [Note] Added new Master_info '' to hash table' to hash table
+2020-11-17 11:20:48 10 [Note] Master '2020-11-09 14:25:45 0 [Note] Added new Master_info '' to hash table': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
+2020-11-17 11:20:48 11 [Note] Master '2020-11-09 14:25:45 0 [Note] Added new Master_info '' to hash table': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-2020@002d11@002d09@002014@003a25@003a45@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.000001' position: 4
+2020-11-17 11:20:48 7 [Note] Started replication for '2020-11-09 14:25:45 0 [Note] Added new Master_info '' to hash table'
+2020-11-17 11:20:48 10 [ERROR] Master '2020-11-09 14:25:45 0 [Note] Added new Master_info '' to hash table': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
+2020-11-17 11:20:48 7 [Note] Reading Master_info: 'master-2020@002d11@002d09@002014@003a25@003a45@00200@0020@005bnote@005d@0020c@003a@005cusers@005cfaerie@0020mattins@0020r@005cdesktop@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'  Relay_info:'relay-log-2020@002d11@002d09@002014@003a25@003a45@00200@0020@005bnote@005d@0020c@003a@005cusers@005cfaerie@0020mattins@0020r@005cdesktop@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'
+2020-11-17 11:20:48 10 [Note] Master '2020-11-09 14:25:45 0 [Note] Added new Master_info '' to hash table': Slave I/O thread killed while connecting to master
+2020-11-17 11:20:48 7 [ERROR] Failed to create a new master info file (file 'C:\Users\Faerie Mattins R\Desktop\xampp\mysql\data\master-2020@002d11@002d09@002014@003a25@003a45@00200@0020@005bnote@005d@0020c@003a@005cusers@005cfaerie@0020mattins@0020r@005cdesktop@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info', errno 2)
+2020-11-17 11:20:48 10 [Note] Master '2020-11-09 14:25:45 0 [Note] Added new Master_info '' to hash table': Slave I/O thread exiting, read up to log 'FIRST', position 4
+2020-11-17 11:20:48 7 [ERROR] Initialized Master_info from 'master-2020@002d11@002d09@002014@003a25@003a45@00200@0020@005bnote@005d@0020c@003a@005cusers@005cfaerie@0020mattins@0020r@005cdesktop@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info' failed
+2020-11-17 11:20:48 7 [Note] Added new Master_info '2020-11-09 14:25:45 0 [Note] c:\users\faerie mattins r\desktop\xampp\mysql\bin\mysqld.exe: ready for connections.' to hash table
+2020-11-17 11:20:48 7 [Note] Reading Master_info: 'master-version@003a@0020@002710@002e4@002e14@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203307@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info'  Relay_info:'relay-log-version@003a@0020@002710@002e4@002e14@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203307@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info'
+2020-11-17 11:20:48 7 [Note] Initialized Master_info from 'master-version@003a@0020@002710@002e4@002e14@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203307@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info'
+2020-11-17 11:20:48 7 [Note] Added new Master_info 'Version: '10.4.14-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution' to hash table
+2020-11-17 11:20:48 12 [Note] Master 'Version: '10.4.14-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
+2020-11-17 11:20:48 7 [Note] Started replication for 'Version: '10.4.14-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution'
+2020-11-17 11:20:48 13 [Note] Master 'Version: '10.4.14-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-version@003a@0020@002710@002e4@002e14@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203307@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.000011' position: 4
+2020-11-17 11:20:48 12 [ERROR] Master 'Version: '10.4.14-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
+2020-11-17 11:20:48 0 [Warning] Reading of some Master_info entries failed
+2020-11-17 11:20:48 12 [Note] Master 'Version: '10.4.14-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution': Slave I/O thread killed while connecting to master
+2020-11-17 11:20:48 0 [ERROR] Failed to initialize multi master structures
+2020-11-17 11:20:48 12 [Note] Master 'Version: '10.4.14-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution': Slave I/O thread exiting, read up to log 'FIRST', position 4
+2020-11-17 11:20:48 0 [ERROR] Aborting
