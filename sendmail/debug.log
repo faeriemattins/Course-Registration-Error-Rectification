@@ -1,0 +1,990 @@
+20-10-13 09:14:36 ** --- MESSAGE BEGIN ---
+20-10-13 09:14:36 ** To: faeriemattins73191817@gmail.com
+20-10-13 09:14:36 ** Subject: Simple Email Test via PHP
+20-10-13 09:14:36 ** From: faeriemattins73191817@gmail.com
+20-10-13 09:14:36 ** 
+20-10-13 09:14:36 ** Hi, This is test email send by PHP Script
+20-10-13 09:14:36 ** --- MESSAGE END ---
+20-10-13 09:14:37 ** Connecting to smtp.gmail.com:587
+20-10-13 09:14:45 ** Connected.
+20-10-13 09:14:45 << 220 smtp.gmail.com ESMTP e16sm22531705pfh.45 - gsmtp<EOL>
+20-10-13 09:14:45 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-13 09:14:45 << 250-smtp.gmail.com at your service, [49.205.82.17]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-13 09:14:45 ** Authenticating as faeriemattins73191817@gmail.com
+20-10-13 09:14:45 >> STARTTLS<EOL>
+20-10-13 09:14:46 << 220 2.0.0 Ready to start TLS<EOL>
+20-10-13 09:14:46 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-13 09:14:46 << 250-smtp.gmail.com at your service, [49.205.82.17]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-13 09:14:46 >> AUTH LOGIN<EOL>
+20-10-13 09:14:46 << 334 VXNlcm5hbWU6<EOL>
+20-10-13 09:14:46 >> ZmFlcmllbWF0dGluczczMTkxODE3QGdtYWlsLmNvbQ==<EOL>
+20-10-13 09:14:46 << 334 UGFzc3dvcmQ6<EOL>
+20-10-13 09:14:46 >> bmFydXRva2FuZWtpMTIz<EOL>
+20-10-13 09:14:47 << 235 2.7.0 Accepted<EOL>
+20-10-13 09:14:47 >> MAIL FROM: <faeriemattins73191817@gmail.com><EOL>
+20-10-13 09:14:47 << 250 2.1.0 OK e16sm22531705pfh.45 - gsmtp<EOL>
+20-10-13 09:14:47 >> RCPT TO: <faeriemattins73191817@gmail.com><EOL>
+20-10-13 09:14:47 << 250 2.1.5 OK e16sm22531705pfh.45 - gsmtp<EOL>
+20-10-13 09:14:47 >> DATA<EOL>
+20-10-13 09:14:48 << 354  Go ahead e16sm22531705pfh.45 - gsmtp<EOL>
+20-10-13 09:14:48 >> Date: Tue, 13 Oct 2020 09:14:48 +0530<EOL>
+20-10-13 09:14:48 >> To: faeriemattins73191817@gmail.com<EOL>
+20-10-13 09:14:48 >> Subject: Simple Email Test via PHP<EOL>
+20-10-13 09:14:48 >> From: faeriemattins73191817@gmail.com<EOL>
+20-10-13 09:14:48 >> <EOL>
+20-10-13 09:14:48 >> Hi, This is test email send by PHP Script<EOL>
+20-10-13 09:14:48 >> .<EOL>
+20-10-13 09:14:49 << 250 2.0.0 OK  1602560687 e16sm22531705pfh.45 - gsmtp<EOL>
+20-10-13 09:14:49 >> QUIT<EOL>
+20-10-13 09:14:49 << 221 2.0.0 closing connection e16sm22531705pfh.45 - gsmtp<EOL>
+20-10-13 09:14:49 ** Disconnecting from smtp.gmail.com:587
+20-10-13 09:14:49 ** Disconnected.
+20-10-13 09:14:49 ** Disconnected.
+20-10-13 09:16:56 ** --- MESSAGE BEGIN ---
+20-10-13 09:16:56 ** To: faeriemattins.r2019@vitstudemt.ac.in
+20-10-13 09:16:56 ** Subject: Simple Email Test via PHP
+20-10-13 09:16:56 ** From: faeriemattins73191817@gmail.com
+20-10-13 09:16:56 ** 
+20-10-13 09:16:56 ** Hi, This is test email send by PHP Script
+20-10-13 09:16:56 ** --- MESSAGE END ---
+20-10-13 09:16:57 ** Connecting to smtp.gmail.com:587
+20-10-13 09:16:58 ** Connected.
+20-10-13 09:16:58 << 220 smtp.gmail.com ESMTP v21sm20914262pgl.39 - gsmtp<EOL>
+20-10-13 09:16:58 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-13 09:16:58 << 250-smtp.gmail.com at your service, [49.205.82.17]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-13 09:16:58 ** Authenticating as faeriemattins73191817@gmail.com
+20-10-13 09:16:58 >> STARTTLS<EOL>
+20-10-13 09:16:58 << 220 2.0.0 Ready to start TLS<EOL>
+20-10-13 09:16:58 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-13 09:16:58 << 250-smtp.gmail.com at your service, [49.205.82.17]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-13 09:16:58 >> AUTH LOGIN<EOL>
+20-10-13 09:16:58 << 334 VXNlcm5hbWU6<EOL>
+20-10-13 09:16:58 >> ZmFlcmllbWF0dGluczczMTkxODE3QGdtYWlsLmNvbQ==<EOL>
+20-10-13 09:16:59 << 334 UGFzc3dvcmQ6<EOL>
+20-10-13 09:16:59 >> bmFydXRva2FuZWtpMTIz<EOL>
+20-10-13 09:16:59 << 235 2.7.0 Accepted<EOL>
+20-10-13 09:16:59 >> MAIL FROM: <faeriemattins73191817@gmail.com><EOL>
+20-10-13 09:16:59 << 250 2.1.0 OK v21sm20914262pgl.39 - gsmtp<EOL>
+20-10-13 09:16:59 >> RCPT TO: <faeriemattins.r2019@vitstudemt.ac.in><EOL>
+20-10-13 09:17:00 << 250 2.1.5 OK v21sm20914262pgl.39 - gsmtp<EOL>
+20-10-13 09:17:00 >> DATA<EOL>
+20-10-13 09:17:00 << 354  Go ahead v21sm20914262pgl.39 - gsmtp<EOL>
+20-10-13 09:17:00 >> Date: Tue, 13 Oct 2020 09:17:00 +0530<EOL>
+20-10-13 09:17:00 >> To: faeriemattins.r2019@vitstudemt.ac.in<EOL>
+20-10-13 09:17:00 >> Subject: Simple Email Test via PHP<EOL>
+20-10-13 09:17:00 >> From: faeriemattins73191817@gmail.com<EOL>
+20-10-13 09:17:00 >> <EOL>
+20-10-13 09:17:00 >> Hi, This is test email send by PHP Script<EOL>
+20-10-13 09:17:00 >> .<EOL>
+20-10-13 09:17:01 << 250 2.0.0 OK  1602560820 v21sm20914262pgl.39 - gsmtp<EOL>
+20-10-13 09:17:01 >> QUIT<EOL>
+20-10-13 09:17:01 << 221 2.0.0 closing connection v21sm20914262pgl.39 - gsmtp<EOL>
+20-10-13 09:17:01 ** Disconnected.
+20-10-13 09:17:01 ** Disconnected.
+20-10-13 09:17:01 ** Disconnected.
+20-10-13 09:17:15 ** --- MESSAGE BEGIN ---
+20-10-13 09:17:15 ** To: faeriemattins.r2019@vitstudent.ac.in
+20-10-13 09:17:15 ** Subject: Simple Email Test via PHP
+20-10-13 09:17:15 ** From: faeriemattins73191817@gmail.com
+20-10-13 09:17:15 ** 
+20-10-13 09:17:15 ** Hi, This is test email send by PHP Script
+20-10-13 09:17:15 ** --- MESSAGE END ---
+20-10-13 09:17:16 ** Connecting to smtp.gmail.com:587
+20-10-13 09:17:16 ** Connected.
+20-10-13 09:17:16 << 220 smtp.gmail.com ESMTP z8sm20573762pgr.70 - gsmtp<EOL>
+20-10-13 09:17:16 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-13 09:17:16 << 250-smtp.gmail.com at your service, [49.205.82.17]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-13 09:17:16 ** Authenticating as faeriemattins73191817@gmail.com
+20-10-13 09:17:16 >> STARTTLS<EOL>
+20-10-13 09:17:16 << 220 2.0.0 Ready to start TLS<EOL>
+20-10-13 09:17:17 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-13 09:17:17 << 250-smtp.gmail.com at your service, [49.205.82.17]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-13 09:17:17 >> AUTH LOGIN<EOL>
+20-10-13 09:17:17 << 334 VXNlcm5hbWU6<EOL>
+20-10-13 09:17:17 >> ZmFlcmllbWF0dGluczczMTkxODE3QGdtYWlsLmNvbQ==<EOL>
+20-10-13 09:17:17 << 334 UGFzc3dvcmQ6<EOL>
+20-10-13 09:17:17 >> bmFydXRva2FuZWtpMTIz<EOL>
+20-10-13 09:17:18 << 235 2.7.0 Accepted<EOL>
+20-10-13 09:17:18 >> MAIL FROM: <faeriemattins73191817@gmail.com><EOL>
+20-10-13 09:17:18 << 250 2.1.0 OK z8sm20573762pgr.70 - gsmtp<EOL>
+20-10-13 09:17:18 >> RCPT TO: <faeriemattins.r2019@vitstudent.ac.in><EOL>
+20-10-13 09:17:18 << 250 2.1.5 OK z8sm20573762pgr.70 - gsmtp<EOL>
+20-10-13 09:17:18 >> DATA<EOL>
+20-10-13 09:17:18 << 354  Go ahead z8sm20573762pgr.70 - gsmtp<EOL>
+20-10-13 09:17:18 >> Date: Tue, 13 Oct 2020 09:17:18 +0530<EOL>
+20-10-13 09:17:18 >> To: faeriemattins.r2019@vitstudent.ac.in<EOL>
+20-10-13 09:17:18 >> Subject: Simple Email Test via PHP<EOL>
+20-10-13 09:17:18 >> From: faeriemattins73191817@gmail.com<EOL>
+20-10-13 09:17:18 >> <EOL>
+20-10-13 09:17:18 >> Hi, This is test email send by PHP Script<EOL>
+20-10-13 09:17:18 >> .<EOL>
+20-10-13 09:17:19 << 250 2.0.0 OK  1602560838 z8sm20573762pgr.70 - gsmtp<EOL>
+20-10-13 09:17:19 >> QUIT<EOL>
+20-10-13 09:17:20 << 221 2.0.0 closing connection z8sm20573762pgr.70 - gsmtp<EOL>
+20-10-13 09:17:20 ** Disconnecting from smtp.gmail.com:587
+20-10-13 09:17:20 ** Disconnected.
+20-10-13 09:17:20 ** Disconnected.
+20-10-13 09:35:17 ** --- MESSAGE BEGIN ---
+20-10-13 09:35:17 ** To: faeriemattins.r2019@vitstudent.ac.in
+20-10-13 09:35:17 ** Subject: Simple Email Test via PHP
+20-10-13 09:35:17 ** From: faeriemattins73191817@gmail.com
+20-10-13 09:35:17 ** 
+20-10-13 09:35:17 ** Hi, This is test email send by PHP Script
+20-10-13 09:35:17 ** --- MESSAGE END ---
+20-10-13 09:35:18 ** Connecting to smtp.gmail.com:587
+20-10-13 09:35:18 ** Connected.
+20-10-13 09:35:18 << 220 smtp.gmail.com ESMTP u8sm20874567pfk.79 - gsmtp<EOL>
+20-10-13 09:35:18 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-13 09:35:18 << 250-smtp.gmail.com at your service, [49.205.82.17]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-13 09:35:18 ** Authenticating as faeriemattins73191817@gmail.com
+20-10-13 09:35:18 >> STARTTLS<EOL>
+20-10-13 09:35:18 << 220 2.0.0 Ready to start TLS<EOL>
+20-10-13 09:35:18 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-13 09:35:19 << 250-smtp.gmail.com at your service, [49.205.82.17]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-13 09:35:19 >> AUTH LOGIN<EOL>
+20-10-13 09:35:19 << 334 VXNlcm5hbWU6<EOL>
+20-10-13 09:35:19 >> ZmFlcmllbWF0dGluczczMTkxODE3QGdtYWlsLmNvbQ==<EOL>
+20-10-13 09:35:19 << 334 UGFzc3dvcmQ6<EOL>
+20-10-13 09:35:19 >> bmFydXRva2FuZWtpMTIz<EOL>
+20-10-13 09:35:20 << 235 2.7.0 Accepted<EOL>
+20-10-13 09:35:20 >> MAIL FROM: <faeriemattins73191817@gmail.com><EOL>
+20-10-13 09:35:20 << 250 2.1.0 OK u8sm20874567pfk.79 - gsmtp<EOL>
+20-10-13 09:35:20 >> RCPT TO: <faeriemattins.r2019@vitstudent.ac.in><EOL>
+20-10-13 09:35:20 << 250 2.1.5 OK u8sm20874567pfk.79 - gsmtp<EOL>
+20-10-13 09:35:20 >> DATA<EOL>
+20-10-13 09:35:20 << 354  Go ahead u8sm20874567pfk.79 - gsmtp<EOL>
+20-10-13 09:35:20 >> Date: Tue, 13 Oct 2020 09:35:20 +0530<EOL>
+20-10-13 09:35:20 >> To: faeriemattins.r2019@vitstudent.ac.in<EOL>
+20-10-13 09:35:20 >> Subject: Simple Email Test via PHP<EOL>
+20-10-13 09:35:20 >> From: faeriemattins73191817@gmail.com<EOL>
+20-10-13 09:35:20 >> <EOL>
+20-10-13 09:35:20 >> Hi, This is test email send by PHP Script<EOL>
+20-10-13 09:35:20 >> .<EOL>
+20-10-13 09:35:25 << 250 2.0.0 OK  1602561924 u8sm20874567pfk.79 - gsmtp<EOL>
+20-10-13 09:35:25 >> QUIT<EOL>
+20-10-13 09:35:25 << 221 2.0.0 closing connection u8sm20874567pfk.79 - gsmtp<EOL>
+20-10-13 09:35:25 ** Disconnected.
+20-10-13 09:35:25 ** Disconnected.
+20-10-13 09:35:25 ** Disconnected.
+20-10-13 09:38:59 ** --- MESSAGE BEGIN ---
+20-10-13 09:38:59 ** To: faeriemattins.r2019@vitstudent.ac.in
+20-10-13 09:38:59 ** Subject: This is subject
+20-10-13 09:38:59 ** From:faeriemattins73191817@gmail.com 
+20-10-13 09:38:59 ** Cc:faeriemattins123@outlook.com 
+20-10-13 09:38:59 ** MIME-Version: 1.0
+20-10-13 09:38:59 ** Content-type: text/html
+20-10-13 09:38:59 ** 
+20-10-13 09:38:59 ** <b>This is HTML message.</b><h1>This is headline.</h1>
+20-10-13 09:38:59 ** --- MESSAGE END ---
+20-10-13 09:39:00 ** Connecting to smtp.gmail.com:587
+20-10-13 09:39:02 ** Connected.
+20-10-13 09:39:03 << 220 smtp.gmail.com ESMTP fu19sm24480239pjb.43 - gsmtp<EOL>
+20-10-13 09:39:03 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-13 09:39:03 << 250-smtp.gmail.com at your service, [49.205.82.17]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-13 09:39:03 ** Authenticating as faeriemattins73191817@gmail.com
+20-10-13 09:39:03 >> STARTTLS<EOL>
+20-10-13 09:39:04 << 220 2.0.0 Ready to start TLS<EOL>
+20-10-13 09:39:04 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-13 09:39:04 << 250-smtp.gmail.com at your service, [49.205.82.17]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-13 09:39:04 >> AUTH LOGIN<EOL>
+20-10-13 09:39:04 << 334 VXNlcm5hbWU6<EOL>
+20-10-13 09:39:04 >> ZmFlcmllbWF0dGluczczMTkxODE3QGdtYWlsLmNvbQ==<EOL>
+20-10-13 09:39:05 << 334 UGFzc3dvcmQ6<EOL>
+20-10-13 09:39:05 >> bmFydXRva2FuZWtpMTIz<EOL>
+20-10-13 09:39:05 << 235 2.7.0 Accepted<EOL>
+20-10-13 09:39:05 >> MAIL FROM: <faeriemattins73191817@gmail.com><EOL>
+20-10-13 09:39:05 << 250 2.1.0 OK fu19sm24480239pjb.43 - gsmtp<EOL>
+20-10-13 09:39:05 >> RCPT TO: <faeriemattins.r2019@vitstudent.ac.in><EOL>
+20-10-13 09:39:05 << 250 2.1.5 OK fu19sm24480239pjb.43 - gsmtp<EOL>
+20-10-13 09:39:05 >> RCPT TO: <faeriemattins123@outlook.com><EOL>
+20-10-13 09:39:06 << 250 2.1.5 OK fu19sm24480239pjb.43 - gsmtp<EOL>
+20-10-13 09:39:06 >> DATA<EOL>
+20-10-13 09:39:06 << 354  Go ahead fu19sm24480239pjb.43 - gsmtp<EOL>
+20-10-13 09:39:06 >> Date: Tue, 13 Oct 2020 09:39:06 +0530<EOL>
+20-10-13 09:39:06 >> To: faeriemattins.r2019@vitstudent.ac.in<EOL>
+20-10-13 09:39:06 >> Subject: This is subject<EOL>
+20-10-13 09:39:06 >> From:faeriemattins73191817@gmail.com <EOL>
+20-10-13 09:39:06 >> Cc:faeriemattins123@outlook.com <EOL>
+20-10-13 09:39:06 >> MIME-Version: 1.0<EOL>
+20-10-13 09:39:06 >> Content-type: text/html<EOL>
+20-10-13 09:39:06 >> <EOL>
+20-10-13 09:39:06 >> <b>This is HTML message.</b><h1>This is headline.</h1><EOL>
+20-10-13 09:39:06 >> .<EOL>
+20-10-13 09:39:07 << 250 2.0.0 OK  1602562146 fu19sm24480239pjb.43 - gsmtp<EOL>
+20-10-13 09:39:07 >> QUIT<EOL>
+20-10-13 09:39:07 << 221 2.0.0 closing connection fu19sm24480239pjb.43 - gsmtp<EOL>
+20-10-13 09:39:07 ** Disconnected.
+20-10-13 09:39:07 ** Disconnected.
+20-10-13 09:39:07 ** Disconnected.
+20-10-13 15:33:48 ** --- MESSAGE BEGIN ---
+20-10-13 15:33:48 ** To: 
+20-10-13 15:33:48 ** Subject: Welcome to my website!
+20-10-13 15:33:48 ** From: faeriemattins73191817@gmail.com
+20-10-13 15:33:48 ** 
+20-10-13 15:33:48 ** Hello User, Welcome to my website. I hope my website is exciting and you get all the details your looking for. Have a nice day!
+20-10-13 15:33:48 ** --- MESSAGE END ---
+20-10-13 15:33:48 ** Message is missing recipient's address
+20-10-13 15:39:30 ** --- MESSAGE BEGIN ---
+20-10-13 15:39:30 ** To: faeriemattins73191817@gmail.com
+20-10-13 15:39:30 ** Subject: Welcome to my website!
+20-10-13 15:39:30 ** From: faeriemattins73191817@gmail.com
+20-10-13 15:39:30 ** 
+20-10-13 15:39:30 ** Hello User, Welcome to my website. I hope my website is exciting and you get all the details your looking for. Have a nice day!
+20-10-13 15:39:30 ** --- MESSAGE END ---
+20-10-13 15:39:31 ** Connecting to smtp.gmail.com:587
+20-10-13 15:39:32 ** Connected.
+20-10-13 15:39:32 << 220 smtp.gmail.com ESMTP k15sm21976520pfp.217 - gsmtp<EOL>
+20-10-13 15:39:32 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-13 15:39:32 << 250-smtp.gmail.com at your service, [49.205.82.17]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-13 15:39:32 ** Authenticating as faeriemattins73191817@gmail.com
+20-10-13 15:39:32 >> STARTTLS<EOL>
+20-10-13 15:39:32 << 220 2.0.0 Ready to start TLS<EOL>
+20-10-13 15:39:32 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-13 15:39:33 << 250-smtp.gmail.com at your service, [49.205.82.17]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-13 15:39:33 >> AUTH LOGIN<EOL>
+20-10-13 15:39:33 << 334 VXNlcm5hbWU6<EOL>
+20-10-13 15:39:33 >> ZmFlcmllbWF0dGluczczMTkxODE3QGdtYWlsLmNvbQ==<EOL>
+20-10-13 15:39:33 << 334 UGFzc3dvcmQ6<EOL>
+20-10-13 15:39:33 >> bmFydXRva2FuZWtpMTIz<EOL>
+20-10-13 15:39:34 << 235 2.7.0 Accepted<EOL>
+20-10-13 15:39:34 >> MAIL FROM: <faeriemattins73191817@gmail.com><EOL>
+20-10-13 15:39:34 << 250 2.1.0 OK k15sm21976520pfp.217 - gsmtp<EOL>
+20-10-13 15:39:34 >> RCPT TO: <faeriemattins73191817@gmail.com><EOL>
+20-10-13 15:39:35 << 250 2.1.5 OK k15sm21976520pfp.217 - gsmtp<EOL>
+20-10-13 15:39:35 >> DATA<EOL>
+20-10-13 15:39:35 << 354  Go ahead k15sm21976520pfp.217 - gsmtp<EOL>
+20-10-13 15:39:35 >> Date: Tue, 13 Oct 2020 15:39:35 +0530<EOL>
+20-10-13 15:39:35 >> To: faeriemattins73191817@gmail.com<EOL>
+20-10-13 15:39:35 >> Subject: Welcome to my website!<EOL>
+20-10-13 15:39:35 >> From: faeriemattins73191817@gmail.com<EOL>
+20-10-13 15:39:35 >> <EOL>
+20-10-13 15:39:35 >> Hello User, Welcome to my website. I hope my website is exciting and you get all the details your looking for. Have a nice day!<EOL>
+20-10-13 15:39:35 >> .<EOL>
+20-10-13 15:39:37 << 250 2.0.0 OK  1602583775 k15sm21976520pfp.217 - gsmtp<EOL>
+20-10-13 15:39:37 >> QUIT<EOL>
+20-10-13 15:39:37 << 221 2.0.0 closing connection k15sm21976520pfp.217 - gsmtp<EOL>
+20-10-13 15:39:37 ** Disconnected.
+20-10-13 15:39:37 ** Disconnected.
+20-10-13 15:39:37 ** Disconnected.
+20-10-13 15:49:21 ** --- MESSAGE BEGIN ---
+20-10-13 15:49:21 ** To: faeriemattins.r2019@vitstudent.ac.in
+20-10-13 15:49:21 ** Subject: Welcome to my website!
+20-10-13 15:49:21 ** From: faeriemattins73191817@gmail.com
+20-10-13 15:49:21 ** 
+20-10-13 15:49:21 ** Hello User, Welcome to my website. I hope my website is exciting and you get all the details your looking for. Have a nice day!
+20-10-13 15:49:21 ** --- MESSAGE END ---
+20-10-13 15:49:22 ** Connecting to smtp.gmail.com:587
+20-10-13 15:49:23 ** Connected.
+20-10-13 15:49:23 << 220 smtp.gmail.com ESMTP m11sm22647826pfa.69 - gsmtp<EOL>
+20-10-13 15:49:23 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-13 15:49:23 << 250-smtp.gmail.com at your service, [49.205.82.17]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-13 15:49:23 ** Authenticating as faeriemattins73191817@gmail.com
+20-10-13 15:49:23 >> STARTTLS<EOL>
+20-10-13 15:49:23 << 220 2.0.0 Ready to start TLS<EOL>
+20-10-13 15:49:24 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-13 15:49:24 << 250-smtp.gmail.com at your service, [49.205.82.17]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-13 15:49:24 >> AUTH LOGIN<EOL>
+20-10-13 15:49:24 << 334 VXNlcm5hbWU6<EOL>
+20-10-13 15:49:24 >> ZmFlcmllbWF0dGluczczMTkxODE3QGdtYWlsLmNvbQ==<EOL>
+20-10-13 15:49:24 << 334 UGFzc3dvcmQ6<EOL>
+20-10-13 15:49:24 >> bmFydXRva2FuZWtpMTIz<EOL>
+20-10-13 15:49:25 << 235 2.7.0 Accepted<EOL>
+20-10-13 15:49:25 >> MAIL FROM: <faeriemattins73191817@gmail.com><EOL>
+20-10-13 15:49:25 << 250 2.1.0 OK m11sm22647826pfa.69 - gsmtp<EOL>
+20-10-13 15:49:25 >> RCPT TO: <faeriemattins.r2019@vitstudent.ac.in><EOL>
+20-10-13 15:49:26 << 250 2.1.5 OK m11sm22647826pfa.69 - gsmtp<EOL>
+20-10-13 15:49:26 >> DATA<EOL>
+20-10-13 15:49:26 << 354  Go ahead m11sm22647826pfa.69 - gsmtp<EOL>
+20-10-13 15:49:26 >> Date: Tue, 13 Oct 2020 15:49:26 +0530<EOL>
+20-10-13 15:49:26 >> To: faeriemattins.r2019@vitstudent.ac.in<EOL>
+20-10-13 15:49:26 >> Subject: Welcome to my website!<EOL>
+20-10-13 15:49:26 >> From: faeriemattins73191817@gmail.com<EOL>
+20-10-13 15:49:26 >> <EOL>
+20-10-13 15:49:26 >> Hello User, Welcome to my website. I hope my website is exciting and you get all the details your looking for. Have a nice day!<EOL>
+20-10-13 15:49:26 >> .<EOL>
+20-10-13 15:49:27 << 250 2.0.0 OK  1602584366 m11sm22647826pfa.69 - gsmtp<EOL>
+20-10-13 15:49:27 >> QUIT<EOL>
+20-10-13 15:49:28 << 221 2.0.0 closing connection m11sm22647826pfa.69 - gsmtp<EOL>
+20-10-13 15:49:28 ** Disconnected.
+20-10-13 15:49:28 ** Disconnected.
+20-10-13 15:49:28 ** Disconnected.
+20-10-17 19:45:08 ** --- MESSAGE BEGIN ---
+20-10-17 19:45:08 ** To: faeriemattins73191817@gmail.com
+20-10-17 19:45:08 ** Subject: This is an automated email regarding the slot registration
+20-10-17 19:45:08 ** From:faeriemattins73191817@gmail.com 
+20-10-17 19:45:08 ** Cc:faeriemattins.r2019@vitstudent.ac.in 
+20-10-17 19:45:08 ** MIME-Version: 1.0
+20-10-17 19:45:08 ** Content-type: text/html
+20-10-17 19:45:08 ** 
+20-10-17 19:45:08 ** Respected Sir. This E-Mail is regarding the problems i have for the course registration.Kindly look into what i can do for the following semester.Thanking you  
+20-10-17 19:45:08 ** --- MESSAGE END ---
+20-10-17 19:45:09 ** Connecting to smtp.gmail.com:587
+20-10-17 19:45:09 ** Connected.
+20-10-17 19:45:09 << 220 smtp.gmail.com ESMTP m22sm5748628pfk.214 - gsmtp<EOL>
+20-10-17 19:45:09 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-17 19:45:10 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-17 19:45:10 ** Authenticating as faeriemattins73191817@gmail.com
+20-10-17 19:45:10 >> STARTTLS<EOL>
+20-10-17 19:45:10 << 220 2.0.0 Ready to start TLS<EOL>
+20-10-17 19:45:10 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-17 19:45:10 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-17 19:45:10 >> AUTH LOGIN<EOL>
+20-10-17 19:45:10 << 334 VXNlcm5hbWU6<EOL>
+20-10-17 19:45:10 >> ZmFlcmllbWF0dGluczczMTkxODE3QGdtYWlsLmNvbQ==<EOL>
+20-10-17 19:45:10 << 334 UGFzc3dvcmQ6<EOL>
+20-10-17 19:45:10 >> bmFydXRva2FuZWtpMTIz<EOL>
+20-10-17 19:45:11 << 235 2.7.0 Accepted<EOL>
+20-10-17 19:45:11 >> MAIL FROM: <faeriemattins73191817@gmail.com><EOL>
+20-10-17 19:45:11 << 250 2.1.0 OK m22sm5748628pfk.214 - gsmtp<EOL>
+20-10-17 19:45:11 >> RCPT TO: <faeriemattins73191817@gmail.com><EOL>
+20-10-17 19:45:11 << 250 2.1.5 OK m22sm5748628pfk.214 - gsmtp<EOL>
+20-10-17 19:45:11 >> RCPT TO: <faeriemattins.r2019@vitstudent.ac.in><EOL>
+20-10-17 19:45:12 << 250 2.1.5 OK m22sm5748628pfk.214 - gsmtp<EOL>
+20-10-17 19:45:12 >> DATA<EOL>
+20-10-17 19:45:13 << 354  Go ahead m22sm5748628pfk.214 - gsmtp<EOL>
+20-10-17 19:45:13 >> Date: Sat, 17 Oct 2020 19:45:13 +0530<EOL>
+20-10-17 19:45:13 >> To: faeriemattins73191817@gmail.com<EOL>
+20-10-17 19:45:13 >> Subject: This is an automated email regarding the slot registration<EOL>
+20-10-17 19:45:13 >> From:faeriemattins73191817@gmail.com <EOL>
+20-10-17 19:45:13 >> Cc:faeriemattins.r2019@vitstudent.ac.in <EOL>
+20-10-17 19:45:13 >> MIME-Version: 1.0<EOL>
+20-10-17 19:45:13 >> Content-type: text/html<EOL>
+20-10-17 19:45:13 >> <EOL>
+20-10-17 19:45:13 >> Respected Sir. This E-Mail is regarding the problems i have for the course registration.Kindly look into what i can do for the following semester.Thanking you  <EOL>
+20-10-17 19:45:13 >> .<EOL>
+20-10-17 19:45:14 << 250 2.0.0 OK  1602944113 m22sm5748628pfk.214 - gsmtp<EOL>
+20-10-17 19:45:14 >> QUIT<EOL>
+20-10-17 19:45:14 << 221 2.0.0 closing connection m22sm5748628pfk.214 - gsmtp<EOL>
+20-10-17 19:45:14 ** Disconnected.
+20-10-17 19:45:14 ** Disconnected.
+20-10-17 19:45:14 ** Disconnected.
+20-10-17 20:08:54 ** --- MESSAGE BEGIN ---
+20-10-17 20:08:54 ** To: faeriemattins73191817@gmail.com
+20-10-17 20:08:54 ** Subject: This is an automated email regarding the slot registration
+20-10-17 20:08:54 ** From:faeriemattins73191817@gmail.com 
+20-10-17 20:08:54 ** Cc:faeriemattins.r2019@vitstudent.ac.in 
+20-10-17 20:08:54 ** MIME-Version: 1.0
+20-10-17 20:08:54 ** Content-type: text/html
+20-10-17 20:08:54 ** 
+20-10-17 20:08:54 ** Respected Sir. This E-Mail is regarding the problems i have for the course registration.Kindly look into what i can do for the following semester.Thanking you  
+20-10-17 20:08:54 ** --- MESSAGE END ---
+20-10-17 20:08:55 ** Connecting to smtp.gmail.com:587
+20-10-17 20:08:55 ** Connected.
+20-10-17 20:08:55 << 220 smtp.gmail.com ESMTP j6sm6007880pfi.129 - gsmtp<EOL>
+20-10-17 20:08:55 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-17 20:08:55 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-17 20:08:55 ** Authenticating as faeriemattins73191817@gmail.com
+20-10-17 20:08:55 >> STARTTLS<EOL>
+20-10-17 20:08:56 << 220 2.0.0 Ready to start TLS<EOL>
+20-10-17 20:08:56 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-17 20:08:56 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-17 20:08:56 >> AUTH LOGIN<EOL>
+20-10-17 20:08:56 << 334 VXNlcm5hbWU6<EOL>
+20-10-17 20:08:56 >> ZmFlcmllbWF0dGluczczMTkxODE3QGdtYWlsLmNvbQ==<EOL>
+20-10-17 20:08:56 << 334 UGFzc3dvcmQ6<EOL>
+20-10-17 20:08:56 >> bmFydXRva2FuZWtpMTIz<EOL>
+20-10-17 20:08:57 << 235 2.7.0 Accepted<EOL>
+20-10-17 20:08:57 >> MAIL FROM: <faeriemattins73191817@gmail.com><EOL>
+20-10-17 20:08:57 << 250 2.1.0 OK j6sm6007880pfi.129 - gsmtp<EOL>
+20-10-17 20:08:57 >> RCPT TO: <faeriemattins73191817@gmail.com><EOL>
+20-10-17 20:08:57 << 250 2.1.5 OK j6sm6007880pfi.129 - gsmtp<EOL>
+20-10-17 20:08:57 >> RCPT TO: <faeriemattins.r2019@vitstudent.ac.in><EOL>
+20-10-17 20:08:57 << 250 2.1.5 OK j6sm6007880pfi.129 - gsmtp<EOL>
+20-10-17 20:08:57 >> DATA<EOL>
+20-10-17 20:08:58 << 354  Go ahead j6sm6007880pfi.129 - gsmtp<EOL>
+20-10-17 20:08:58 >> Date: Sat, 17 Oct 2020 20:08:58 +0530<EOL>
+20-10-17 20:08:58 >> To: faeriemattins73191817@gmail.com<EOL>
+20-10-17 20:08:58 >> Subject: This is an automated email regarding the slot registration<EOL>
+20-10-17 20:08:58 >> From:faeriemattins73191817@gmail.com <EOL>
+20-10-17 20:08:58 >> Cc:faeriemattins.r2019@vitstudent.ac.in <EOL>
+20-10-17 20:08:58 >> MIME-Version: 1.0<EOL>
+20-10-17 20:08:58 >> Content-type: text/html<EOL>
+20-10-17 20:08:58 >> <EOL>
+20-10-17 20:08:58 >> Respected Sir. This E-Mail is regarding the problems i have for the course registration.Kindly look into what i can do for the following semester.Thanking you  <EOL>
+20-10-17 20:08:58 >> .<EOL>
+20-10-17 20:08:59 << 250 2.0.0 OK  1602945539 j6sm6007880pfi.129 - gsmtp<EOL>
+20-10-17 20:08:59 >> QUIT<EOL>
+20-10-17 20:09:00 << 221 2.0.0 closing connection j6sm6007880pfi.129 - gsmtp<EOL>
+20-10-17 20:09:00 ** Disconnected.
+20-10-17 20:09:00 ** Disconnected.
+20-10-17 20:09:00 ** Disconnected.
+20-10-17 20:12:20 ** --- MESSAGE BEGIN ---
+20-10-17 20:12:20 ** To: faeriemattins73191817@gmail.com
+20-10-17 20:12:20 ** Subject: This is an automated email regarding the slot registration
+20-10-17 20:12:20 ** From:faeriemattins73191817@gmail.com 
+20-10-17 20:12:20 ** Cc:faeriemattins.r2019@vitstudent.ac.in 
+20-10-17 20:12:20 ** MIME-Version: 1.0
+20-10-17 20:12:20 ** Content-type: text/html
+20-10-17 20:12:20 ** 
+20-10-17 20:12:20 ** Respected Sir. This E-Mail is regarding the problems i have for the course registration.Kindly look into what i can do for the following semester.Thanking you  
+20-10-17 20:12:20 ** --- MESSAGE END ---
+20-10-17 20:12:21 ** Connecting to smtp.gmail.com:587
+20-10-17 20:12:21 ** Connected.
+20-10-17 20:12:21 << 220 smtp.gmail.com ESMTP b128sm5900275pga.80 - gsmtp<EOL>
+20-10-17 20:12:21 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-17 20:12:22 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-17 20:12:22 ** Authenticating as faeriemattins73191817@gmail.com
+20-10-17 20:12:22 >> STARTTLS<EOL>
+20-10-17 20:12:22 << 220 2.0.0 Ready to start TLS<EOL>
+20-10-17 20:12:22 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-17 20:12:22 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-17 20:12:22 >> AUTH LOGIN<EOL>
+20-10-17 20:12:22 << 334 VXNlcm5hbWU6<EOL>
+20-10-17 20:12:22 >> ZmFlcmllbWF0dGluczczMTkxODE3QGdtYWlsLmNvbQ==<EOL>
+20-10-17 20:12:23 << 334 UGFzc3dvcmQ6<EOL>
+20-10-17 20:12:23 >> bmFydXRva2FuZWtpMTIz<EOL>
+20-10-17 20:12:23 << 235 2.7.0 Accepted<EOL>
+20-10-17 20:12:23 >> MAIL FROM: <faeriemattins73191817@gmail.com><EOL>
+20-10-17 20:12:24 << 250 2.1.0 OK b128sm5900275pga.80 - gsmtp<EOL>
+20-10-17 20:12:24 >> RCPT TO: <faeriemattins73191817@gmail.com><EOL>
+20-10-17 20:12:24 << 250 2.1.5 OK b128sm5900275pga.80 - gsmtp<EOL>
+20-10-17 20:12:24 >> RCPT TO: <faeriemattins.r2019@vitstudent.ac.in><EOL>
+20-10-17 20:12:24 << 250 2.1.5 OK b128sm5900275pga.80 - gsmtp<EOL>
+20-10-17 20:12:24 >> DATA<EOL>
+20-10-17 20:12:24 << 354  Go ahead b128sm5900275pga.80 - gsmtp<EOL>
+20-10-17 20:12:25 >> Date: Sat, 17 Oct 2020 20:12:24 +0530<EOL>
+20-10-17 20:12:25 >> To: faeriemattins73191817@gmail.com<EOL>
+20-10-17 20:12:25 >> Subject: This is an automated email regarding the slot registration<EOL>
+20-10-17 20:12:25 >> From:faeriemattins73191817@gmail.com <EOL>
+20-10-17 20:12:25 >> Cc:faeriemattins.r2019@vitstudent.ac.in <EOL>
+20-10-17 20:12:25 >> MIME-Version: 1.0<EOL>
+20-10-17 20:12:25 >> Content-type: text/html<EOL>
+20-10-17 20:12:25 >> <EOL>
+20-10-17 20:12:25 >> Respected Sir. This E-Mail is regarding the problems i have for the course registration.Kindly look into what i can do for the following semester.Thanking you  <EOL>
+20-10-17 20:12:25 >> .<EOL>
+20-10-17 20:12:26 << 250 2.0.0 OK  1602945745 b128sm5900275pga.80 - gsmtp<EOL>
+20-10-17 20:12:26 >> QUIT<EOL>
+20-10-17 20:12:26 << 221 2.0.0 closing connection b128sm5900275pga.80 - gsmtp<EOL>
+20-10-17 20:12:26 ** Disconnected.
+20-10-17 20:12:26 ** Disconnected.
+20-10-17 20:12:26 ** Disconnected.
+20-10-17 20:42:45 ** --- MESSAGE BEGIN ---
+20-10-17 20:42:45 ** To: faeriemattins73191817@gmail.com
+20-10-17 20:42:45 ** Subject: This is an automated email regarding the slot registration
+20-10-17 20:42:45 ** From:faeriemattins73191817@gmail.com 
+20-10-17 20:42:45 ** Cc:faeriemattins.r2019@vitstudent.ac.in 
+20-10-17 20:42:45 ** MIME-Version: 1.0
+20-10-17 20:42:45 ** Content-type: text/html
+20-10-17 20:42:45 ** 
+20-10-17 20:42:45 ** Respected Sir. This E-Mail is regarding the problems i have for the course registration.Kindly look into what i can do for the following semester.Thanking you  
+20-10-17 20:42:45 ** --- MESSAGE END ---
+20-10-17 20:42:46 ** Connecting to smtp.gmail.com:587
+20-10-17 20:42:47 ** Connected.
+20-10-17 20:42:47 << 220 smtp.gmail.com ESMTP y13sm6012192pfl.166 - gsmtp<EOL>
+20-10-17 20:42:47 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-17 20:42:47 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-17 20:42:47 ** Authenticating as faeriemattins73191817@gmail.com
+20-10-17 20:42:47 >> STARTTLS<EOL>
+20-10-17 20:42:47 << 220 2.0.0 Ready to start TLS<EOL>
+20-10-17 20:42:47 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-17 20:42:48 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-17 20:42:48 >> AUTH LOGIN<EOL>
+20-10-17 20:42:48 << 334 VXNlcm5hbWU6<EOL>
+20-10-17 20:42:48 >> ZmFlcmllbWF0dGluczczMTkxODE3QGdtYWlsLmNvbQ==<EOL>
+20-10-17 20:42:48 << 334 UGFzc3dvcmQ6<EOL>
+20-10-17 20:42:48 >> bmFydXRva2FuZWtpMTIz<EOL>
+20-10-17 20:42:49 << 235 2.7.0 Accepted<EOL>
+20-10-17 20:42:49 >> MAIL FROM: <faeriemattins73191817@gmail.com><EOL>
+20-10-17 20:42:49 << 250 2.1.0 OK y13sm6012192pfl.166 - gsmtp<EOL>
+20-10-17 20:42:49 >> RCPT TO: <faeriemattins73191817@gmail.com><EOL>
+20-10-17 20:42:49 << 250 2.1.5 OK y13sm6012192pfl.166 - gsmtp<EOL>
+20-10-17 20:42:49 >> RCPT TO: <faeriemattins.r2019@vitstudent.ac.in><EOL>
+20-10-17 20:42:49 << 250 2.1.5 OK y13sm6012192pfl.166 - gsmtp<EOL>
+20-10-17 20:42:49 >> DATA<EOL>
+20-10-17 20:42:50 << 354  Go ahead y13sm6012192pfl.166 - gsmtp<EOL>
+20-10-17 20:42:50 >> Date: Sat, 17 Oct 2020 20:42:50 +0530<EOL>
+20-10-17 20:42:50 >> To: faeriemattins73191817@gmail.com<EOL>
+20-10-17 20:42:50 >> Subject: This is an automated email regarding the slot registration<EOL>
+20-10-17 20:42:50 >> From:faeriemattins73191817@gmail.com <EOL>
+20-10-17 20:42:50 >> Cc:faeriemattins.r2019@vitstudent.ac.in <EOL>
+20-10-17 20:42:50 >> MIME-Version: 1.0<EOL>
+20-10-17 20:42:50 >> Content-type: text/html<EOL>
+20-10-17 20:42:50 >> <EOL>
+20-10-17 20:42:50 >> Respected Sir. This E-Mail is regarding the problems i have for the course registration.Kindly look into what i can do for the following semester.Thanking you  <EOL>
+20-10-17 20:42:50 >> .<EOL>
+20-10-17 20:42:51 << 250 2.0.0 OK  1602947570 y13sm6012192pfl.166 - gsmtp<EOL>
+20-10-17 20:42:51 >> QUIT<EOL>
+20-10-17 20:42:51 << 221 2.0.0 closing connection y13sm6012192pfl.166 - gsmtp<EOL>
+20-10-17 20:42:51 ** Disconnecting from smtp.gmail.com:587
+20-10-17 20:42:51 ** Disconnected.
+20-10-17 20:42:51 ** Disconnected.
+20-10-17 21:37:32 ** --- MESSAGE BEGIN ---
+20-10-17 21:37:32 ** To: faeriemattins73191817@gmail.com
+20-10-17 21:37:32 ** Subject: This is an automated email regarding the slot registration
+20-10-17 21:37:32 ** From:faeriemattins73191817@gmail.com 
+20-10-17 21:37:32 ** Cc:faeriemattins.r2019@vitstudent.ac.in 
+20-10-17 21:37:32 ** MIME-Version: 1.0
+20-10-17 21:37:32 ** Content-type: text/html
+20-10-17 21:37:32 ** 
+20-10-17 21:37:32 ** Respected Sir. This Email is regarding the problems I have for the course registration. Kindly look into what I can do for the following semester.Thanking you  
+20-10-17 21:37:32 ** --- MESSAGE END ---
+20-10-17 21:37:35 ** Connecting to smtp.gmail.com:587
+20-10-17 21:37:35 ** Connected.
+20-10-17 21:37:35 << 220 smtp.gmail.com ESMTP y27sm6514037pfr.122 - gsmtp<EOL>
+20-10-17 21:37:35 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-17 21:37:35 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-17 21:37:35 ** Authenticating as faeriemattins73191817@gmail.com
+20-10-17 21:37:35 >> STARTTLS<EOL>
+20-10-17 21:37:35 << 220 2.0.0 Ready to start TLS<EOL>
+20-10-17 21:37:36 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-17 21:37:36 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-17 21:37:36 >> AUTH LOGIN<EOL>
+20-10-17 21:37:36 << 334 VXNlcm5hbWU6<EOL>
+20-10-17 21:37:36 >> ZmFlcmllbWF0dGluczczMTkxODE3QGdtYWlsLmNvbQ==<EOL>
+20-10-17 21:37:36 << 334 UGFzc3dvcmQ6<EOL>
+20-10-17 21:37:36 >> bmFydXRva2FuZWtpMTIz<EOL>
+20-10-17 21:37:37 << 235 2.7.0 Accepted<EOL>
+20-10-17 21:37:37 >> MAIL FROM: <faeriemattins73191817@gmail.com><EOL>
+20-10-17 21:37:37 << 250 2.1.0 OK y27sm6514037pfr.122 - gsmtp<EOL>
+20-10-17 21:37:37 >> RCPT TO: <faeriemattins73191817@gmail.com><EOL>
+20-10-17 21:37:37 << 250 2.1.5 OK y27sm6514037pfr.122 - gsmtp<EOL>
+20-10-17 21:37:37 >> RCPT TO: <faeriemattins.r2019@vitstudent.ac.in><EOL>
+20-10-17 21:37:37 << 250 2.1.5 OK y27sm6514037pfr.122 - gsmtp<EOL>
+20-10-17 21:37:37 >> DATA<EOL>
+20-10-17 21:37:38 << 354  Go ahead y27sm6514037pfr.122 - gsmtp<EOL>
+20-10-17 21:37:38 >> Date: Sat, 17 Oct 2020 21:37:38 +0530<EOL>
+20-10-17 21:37:38 >> To: faeriemattins73191817@gmail.com<EOL>
+20-10-17 21:37:38 >> Subject: This is an automated email regarding the slot registration<EOL>
+20-10-17 21:37:38 >> From:faeriemattins73191817@gmail.com <EOL>
+20-10-17 21:37:38 >> Cc:faeriemattins.r2019@vitstudent.ac.in <EOL>
+20-10-17 21:37:38 >> MIME-Version: 1.0<EOL>
+20-10-17 21:37:38 >> Content-type: text/html<EOL>
+20-10-17 21:37:38 >> <EOL>
+20-10-17 21:37:38 >> Respected Sir. This Email is regarding the problems I have for the course registration. Kindly look into what I can do for the following semester.Thanking you  <EOL>
+20-10-17 21:37:38 >> .<EOL>
+20-10-17 21:37:39 << 250 2.0.0 OK  1602950858 y27sm6514037pfr.122 - gsmtp<EOL>
+20-10-17 21:37:39 >> QUIT<EOL>
+20-10-17 21:37:40 << 221 2.0.0 closing connection y27sm6514037pfr.122 - gsmtp<EOL>
+20-10-17 21:37:40 ** Disconnected.
+20-10-17 21:37:40 ** Disconnected.
+20-10-17 21:37:40 ** Disconnected.
+20-10-20 13:23:21 ** --- MESSAGE BEGIN ---
+20-10-20 13:23:21 ** To: faeriemattins73191817@gmail.com
+20-10-20 13:23:21 ** Subject: This is an automated email regarding the slot registration
+20-10-20 13:23:21 ** From:faeriemattins73191817@gmail.com 
+20-10-20 13:23:21 ** Cc:faeriemattins.r2019@vitstudent.ac.in 
+20-10-20 13:23:21 ** MIME-Version: 1.0
+20-10-20 13:23:21 ** Content-type: text/html
+20-10-20 13:23:21 ** 
+20-10-20 13:23:21 ** Respected Sir. This Email is regarding the problems I have for the course registration. Kindly look into what I can do for the following semester.Thanking you  
+20-10-20 13:23:21 ** --- MESSAGE END ---
+20-10-20 13:23:22 ** Connecting to smtp.gmail.com:587
+20-10-20 13:23:23 ** Connected.
+20-10-20 13:23:23 << 220 smtp.gmail.com ESMTP y65sm1297453pfy.57 - gsmtp<EOL>
+20-10-20 13:23:23 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-20 13:23:23 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-20 13:23:23 ** Authenticating as faeriemattins73191817@gmail.com
+20-10-20 13:23:23 >> STARTTLS<EOL>
+20-10-20 13:23:24 << 220 2.0.0 Ready to start TLS<EOL>
+20-10-20 13:23:24 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-20 13:23:24 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-20 13:23:24 >> AUTH LOGIN<EOL>
+20-10-20 13:23:24 << 334 VXNlcm5hbWU6<EOL>
+20-10-20 13:23:24 >> ZmFlcmllbWF0dGluczczMTkxODE3QGdtYWlsLmNvbQ==<EOL>
+20-10-20 13:23:24 << 334 UGFzc3dvcmQ6<EOL>
+20-10-20 13:23:24 >> bmFydXRva2FuZWtpMTIz<EOL>
+20-10-20 13:23:25 << 235 2.7.0 Accepted<EOL>
+20-10-20 13:23:25 >> MAIL FROM: <faeriemattins73191817@gmail.com><EOL>
+20-10-20 13:23:25 << 250 2.1.0 OK y65sm1297453pfy.57 - gsmtp<EOL>
+20-10-20 13:23:25 >> RCPT TO: <faeriemattins73191817@gmail.com><EOL>
+20-10-20 13:23:25 << 250 2.1.5 OK y65sm1297453pfy.57 - gsmtp<EOL>
+20-10-20 13:23:25 >> RCPT TO: <faeriemattins.r2019@vitstudent.ac.in><EOL>
+20-10-20 13:23:25 << 250 2.1.5 OK y65sm1297453pfy.57 - gsmtp<EOL>
+20-10-20 13:23:25 >> DATA<EOL>
+20-10-20 13:23:26 << 354  Go ahead y65sm1297453pfy.57 - gsmtp<EOL>
+20-10-20 13:23:26 >> Date: Tue, 20 Oct 2020 13:23:26 +0530<EOL>
+20-10-20 13:23:26 >> To: faeriemattins73191817@gmail.com<EOL>
+20-10-20 13:23:26 >> Subject: This is an automated email regarding the slot registration<EOL>
+20-10-20 13:23:26 >> From:faeriemattins73191817@gmail.com <EOL>
+20-10-20 13:23:26 >> Cc:faeriemattins.r2019@vitstudent.ac.in <EOL>
+20-10-20 13:23:26 >> MIME-Version: 1.0<EOL>
+20-10-20 13:23:26 >> Content-type: text/html<EOL>
+20-10-20 13:23:26 >> <EOL>
+20-10-20 13:23:26 >> Respected Sir. This Email is regarding the problems I have for the course registration. Kindly look into what I can do for the following semester.Thanking you  <EOL>
+20-10-20 13:23:26 >> .<EOL>
+20-10-20 13:23:27 << 250 2.0.0 OK  1603180407 y65sm1297453pfy.57 - gsmtp<EOL>
+20-10-20 13:23:27 >> QUIT<EOL>
+20-10-20 13:23:28 << 221 2.0.0 closing connection y65sm1297453pfy.57 - gsmtp<EOL>
+20-10-20 13:23:28 ** Disconnected.
+20-10-20 13:23:28 ** Disconnected.
+20-10-20 13:23:28 ** Disconnected.
+20-10-20 18:28:46 ** --- MESSAGE BEGIN ---
+20-10-20 18:28:46 ** To: faeriemattins73191817@gmail.com
+20-10-20 18:28:46 ** Subject: This is an automated email regarding the slot registration
+20-10-20 18:28:46 ** From:faeriemattins73191817@gmail.com 
+20-10-20 18:28:46 ** Cc:faeriemattins.r2019@vitstudent.ac.in 
+20-10-20 18:28:46 ** MIME-Version: 1.0
+20-10-20 18:28:46 ** Content-type: text/html
+20-10-20 18:28:46 ** 
+20-10-20 18:28:46 ** Respected Sir. This Email is regarding the problems I have for the course registration. Kindly look into what I can do for the following semester.Thanking you  
+20-10-20 18:28:46 ** --- MESSAGE END ---
+20-10-20 18:28:47 ** Connecting to smtp.gmail.com:587
+20-10-20 18:28:50 ** Connected.
+20-10-20 18:28:50 << 220 smtp.gmail.com ESMTP f66sm2337191pfa.59 - gsmtp<EOL>
+20-10-20 18:28:50 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-20 18:28:50 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-20 18:28:50 ** Authenticating as faeriemattins73191817@gmail.com
+20-10-20 18:28:50 >> STARTTLS<EOL>
+20-10-20 18:28:50 << 220 2.0.0 Ready to start TLS<EOL>
+20-10-20 18:28:50 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-20 18:28:50 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-20 18:28:50 >> AUTH LOGIN<EOL>
+20-10-20 18:28:50 << 334 VXNlcm5hbWU6<EOL>
+20-10-20 18:28:50 >> ZmFlcmllbWF0dGluczczMTkxODE3QGdtYWlsLmNvbQ==<EOL>
+20-10-20 18:28:51 << 334 UGFzc3dvcmQ6<EOL>
+20-10-20 18:28:51 >> bmFydXRva2FuZWtpMTIz<EOL>
+20-10-20 18:28:51 << 235 2.7.0 Accepted<EOL>
+20-10-20 18:28:51 >> MAIL FROM: <faeriemattins73191817@gmail.com><EOL>
+20-10-20 18:28:51 << 250 2.1.0 OK f66sm2337191pfa.59 - gsmtp<EOL>
+20-10-20 18:28:51 >> RCPT TO: <faeriemattins73191817@gmail.com><EOL>
+20-10-20 18:28:52 << 250 2.1.5 OK f66sm2337191pfa.59 - gsmtp<EOL>
+20-10-20 18:28:52 >> RCPT TO: <faeriemattins.r2019@vitstudent.ac.in><EOL>
+20-10-20 18:28:52 << 250 2.1.5 OK f66sm2337191pfa.59 - gsmtp<EOL>
+20-10-20 18:28:52 >> DATA<EOL>
+20-10-20 18:28:53 << 354  Go ahead f66sm2337191pfa.59 - gsmtp<EOL>
+20-10-20 18:28:53 >> Date: Tue, 20 Oct 2020 18:28:53 +0530<EOL>
+20-10-20 18:28:53 >> To: faeriemattins73191817@gmail.com<EOL>
+20-10-20 18:28:53 >> Subject: This is an automated email regarding the slot registration<EOL>
+20-10-20 18:28:53 >> From:faeriemattins73191817@gmail.com <EOL>
+20-10-20 18:28:53 >> Cc:faeriemattins.r2019@vitstudent.ac.in <EOL>
+20-10-20 18:28:53 >> MIME-Version: 1.0<EOL>
+20-10-20 18:28:53 >> Content-type: text/html<EOL>
+20-10-20 18:28:53 >> <EOL>
+20-10-20 18:28:53 >> Respected Sir. This Email is regarding the problems I have for the course registration. Kindly look into what I can do for the following semester.Thanking you  <EOL>
+20-10-20 18:28:53 >> .<EOL>
+20-10-20 18:28:54 << 250 2.0.0 OK  1603198734 f66sm2337191pfa.59 - gsmtp<EOL>
+20-10-20 18:28:54 >> QUIT<EOL>
+20-10-20 18:28:54 << 221 2.0.0 closing connection f66sm2337191pfa.59 - gsmtp<EOL>
+20-10-20 18:28:54 ** Disconnecting from smtp.gmail.com:587
+20-10-20 18:28:54 ** Disconnected.
+20-10-20 18:28:54 ** Disconnected.
+20-10-22 17:42:25 ** --- MESSAGE BEGIN ---
+20-10-22 17:42:25 ** To: faeriemattins73191817@gmail.com
+20-10-22 17:42:25 ** Subject: This is an automated email regarding the slot registration
+20-10-22 17:42:25 ** From:faeriemattins73191817@gmail.com 
+20-10-22 17:42:25 ** Cc:faeriemattins.r2019@vitstudent.ac.in 
+20-10-22 17:42:25 ** MIME-Version: 1.0
+20-10-22 17:42:25 ** Content-type: text/html
+20-10-22 17:42:25 ** 
+20-10-22 17:42:25 ** Respected Sir. This Email is regarding the problems I have for the course registration. Kindly look into what I can do for the following semester.Thanking you  
+20-10-22 17:42:25 ** --- MESSAGE END ---
+20-10-22 17:42:26 ** Connecting to smtp.gmail.com:587
+20-10-22 17:42:26 ** Connected.
+20-10-22 17:42:26 << 220 smtp.gmail.com ESMTP x18sm2358730pfj.90 - gsmtp<EOL>
+20-10-22 17:42:26 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-22 17:42:27 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-22 17:42:27 ** Authenticating as faeriemattins73191817@gmail.com
+20-10-22 17:42:27 >> STARTTLS<EOL>
+20-10-22 17:42:27 << 220 2.0.0 Ready to start TLS<EOL>
+20-10-22 17:42:27 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-22 17:42:27 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-22 17:42:27 >> AUTH LOGIN<EOL>
+20-10-22 17:42:27 << 334 VXNlcm5hbWU6<EOL>
+20-10-22 17:42:27 >> ZmFlcmllbWF0dGluczczMTkxODE3QGdtYWlsLmNvbQ==<EOL>
+20-10-22 17:42:28 << 334 UGFzc3dvcmQ6<EOL>
+20-10-22 17:42:28 >> bmFydXRva2FuZWtpMTIz<EOL>
+20-10-22 17:42:28 << 235 2.7.0 Accepted<EOL>
+20-10-22 17:42:28 >> MAIL FROM: <faeriemattins73191817@gmail.com><EOL>
+20-10-22 17:42:28 << 250 2.1.0 OK x18sm2358730pfj.90 - gsmtp<EOL>
+20-10-22 17:42:28 >> RCPT TO: <faeriemattins73191817@gmail.com><EOL>
+20-10-22 17:42:28 << 250 2.1.5 OK x18sm2358730pfj.90 - gsmtp<EOL>
+20-10-22 17:42:28 >> RCPT TO: <faeriemattins.r2019@vitstudent.ac.in><EOL>
+20-10-22 17:42:29 << 250 2.1.5 OK x18sm2358730pfj.90 - gsmtp<EOL>
+20-10-22 17:42:29 >> DATA<EOL>
+20-10-22 17:42:30 << 354  Go ahead x18sm2358730pfj.90 - gsmtp<EOL>
+20-10-22 17:42:30 >> Date: Thu, 22 Oct 2020 17:42:30 +0530<EOL>
+20-10-22 17:42:30 >> To: faeriemattins73191817@gmail.com<EOL>
+20-10-22 17:42:30 >> Subject: This is an automated email regarding the slot registration<EOL>
+20-10-22 17:42:30 >> From:faeriemattins73191817@gmail.com <EOL>
+20-10-22 17:42:30 >> Cc:faeriemattins.r2019@vitstudent.ac.in <EOL>
+20-10-22 17:42:30 >> MIME-Version: 1.0<EOL>
+20-10-22 17:42:30 >> Content-type: text/html<EOL>
+20-10-22 17:42:30 >> <EOL>
+20-10-22 17:42:30 >> Respected Sir. This Email is regarding the problems I have for the course registration. Kindly look into what I can do for the following semester.Thanking you  <EOL>
+20-10-22 17:42:30 >> .<EOL>
+20-10-22 17:42:31 << 250 2.0.0 OK  1603368750 x18sm2358730pfj.90 - gsmtp<EOL>
+20-10-22 17:42:31 >> QUIT<EOL>
+20-10-22 17:42:32 << 221 2.0.0 closing connection x18sm2358730pfj.90 - gsmtp<EOL>
+20-10-22 17:42:32 ** Disconnected.
+20-10-22 17:42:32 ** Disconnected.
+20-10-22 17:42:32 ** Disconnected.
+20-10-22 17:43:18 ** --- MESSAGE BEGIN ---
+20-10-22 17:43:18 ** To: faeriemattins73191817@gmail.com
+20-10-22 17:43:18 ** Subject: This is an automated email regarding the course registration
+20-10-22 17:43:18 ** From:faeriemattins73191817@gmail.com 
+20-10-22 17:43:18 ** Cc:faeriemattins.r2019@vitstudent.ac.in 
+20-10-22 17:43:18 ** MIME-Version: 1.0
+20-10-22 17:43:18 ** Content-type: text/html
+20-10-22 17:43:18 ** 
+20-10-22 17:43:18 ** Respected Sir. This Email is regarding the problems I have for the course registration. Kindly look into what I can do for the following semester.Thanking you  
+20-10-22 17:43:18 ** --- MESSAGE END ---
+20-10-22 17:43:19 ** Connecting to smtp.gmail.com:587
+20-10-22 17:43:19 ** Connected.
+20-10-22 17:43:19 << 220 smtp.gmail.com ESMTP q16sm1925062pfu.206 - gsmtp<EOL>
+20-10-22 17:43:19 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-22 17:43:19 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-22 17:43:19 ** Authenticating as faeriemattins73191817@gmail.com
+20-10-22 17:43:19 >> STARTTLS<EOL>
+20-10-22 17:43:19 << 220 2.0.0 Ready to start TLS<EOL>
+20-10-22 17:43:20 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-22 17:43:20 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-22 17:43:20 >> AUTH LOGIN<EOL>
+20-10-22 17:43:20 << 334 VXNlcm5hbWU6<EOL>
+20-10-22 17:43:20 >> ZmFlcmllbWF0dGluczczMTkxODE3QGdtYWlsLmNvbQ==<EOL>
+20-10-22 17:43:20 << 334 UGFzc3dvcmQ6<EOL>
+20-10-22 17:43:20 >> bmFydXRva2FuZWtpMTIz<EOL>
+20-10-22 17:43:21 << 235 2.7.0 Accepted<EOL>
+20-10-22 17:43:21 >> MAIL FROM: <faeriemattins73191817@gmail.com><EOL>
+20-10-22 17:43:21 << 250 2.1.0 OK q16sm1925062pfu.206 - gsmtp<EOL>
+20-10-22 17:43:21 >> RCPT TO: <faeriemattins73191817@gmail.com><EOL>
+20-10-22 17:43:21 << 250 2.1.5 OK q16sm1925062pfu.206 - gsmtp<EOL>
+20-10-22 17:43:21 >> RCPT TO: <faeriemattins.r2019@vitstudent.ac.in><EOL>
+20-10-22 17:43:21 << 250 2.1.5 OK q16sm1925062pfu.206 - gsmtp<EOL>
+20-10-22 17:43:21 >> DATA<EOL>
+20-10-22 17:43:22 << 354  Go ahead q16sm1925062pfu.206 - gsmtp<EOL>
+20-10-22 17:43:22 >> Date: Thu, 22 Oct 2020 17:43:22 +0530<EOL>
+20-10-22 17:43:22 >> To: faeriemattins73191817@gmail.com<EOL>
+20-10-22 17:43:22 >> Subject: This is an automated email regarding the course registration<EOL>
+20-10-22 17:43:22 >> From:faeriemattins73191817@gmail.com <EOL>
+20-10-22 17:43:22 >> Cc:faeriemattins.r2019@vitstudent.ac.in <EOL>
+20-10-22 17:43:22 >> MIME-Version: 1.0<EOL>
+20-10-22 17:43:22 >> Content-type: text/html<EOL>
+20-10-22 17:43:22 >> <EOL>
+20-10-22 17:43:22 >> Respected Sir. This Email is regarding the problems I have for the course registration. Kindly look into what I can do for the following semester.Thanking you  <EOL>
+20-10-22 17:43:22 >> .<EOL>
+20-10-22 17:43:23 << 250 2.0.0 OK  1603368802 q16sm1925062pfu.206 - gsmtp<EOL>
+20-10-22 17:43:23 >> QUIT<EOL>
+20-10-22 17:43:23 << 221 2.0.0 closing connection q16sm1925062pfu.206 - gsmtp<EOL>
+20-10-22 17:43:23 ** Disconnected.
+20-10-22 17:43:23 ** Disconnected.
+20-10-22 17:43:23 ** Disconnected.
+20-10-22 18:24:52 ** --- MESSAGE BEGIN ---
+20-10-22 18:24:52 ** To: faeriemattins73191817@gmail.com
+20-10-22 18:24:52 ** Subject: This is an automated email regarding the course registration
+20-10-22 18:24:52 ** From:faeriemattins73191817@gmail.com 
+20-10-22 18:24:52 ** Cc:faeriemattins.r2019@vitstudent.ac.in
+20-10-22 18:24:52 ** 
+20-10-22 18:24:52 ** Respected Sir. This Email is regarding the problems I have for the course registration. Kindly look into what I can do for the following semester.Thanking you  
+20-10-22 18:24:52 ** --- MESSAGE END ---
+20-10-22 18:24:53 ** Connecting to smtp.gmail.com:587
+20-10-22 18:24:53 ** Connected.
+20-10-22 18:24:53 << 220 smtp.gmail.com ESMTP i30sm2495885pgb.81 - gsmtp<EOL>
+20-10-22 18:24:53 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-22 18:24:53 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-22 18:24:53 ** Authenticating as faeriemattins73191817@gmail.com
+20-10-22 18:24:53 >> STARTTLS<EOL>
+20-10-22 18:24:54 << 220 2.0.0 Ready to start TLS<EOL>
+20-10-22 18:24:54 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-22 18:24:54 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-22 18:24:54 >> AUTH LOGIN<EOL>
+20-10-22 18:24:54 << 334 VXNlcm5hbWU6<EOL>
+20-10-22 18:24:54 >> ZmFlcmllbWF0dGluczczMTkxODE3QGdtYWlsLmNvbQ==<EOL>
+20-10-22 18:24:54 << 334 UGFzc3dvcmQ6<EOL>
+20-10-22 18:24:54 >> bmFydXRva2FuZWtpMTIz<EOL>
+20-10-22 18:24:55 << 235 2.7.0 Accepted<EOL>
+20-10-22 18:24:55 >> MAIL FROM: <faeriemattins73191817@gmail.com><EOL>
+20-10-22 18:24:55 << 250 2.1.0 OK i30sm2495885pgb.81 - gsmtp<EOL>
+20-10-22 18:24:55 >> RCPT TO: <faeriemattins73191817@gmail.com><EOL>
+20-10-22 18:24:55 << 250 2.1.5 OK i30sm2495885pgb.81 - gsmtp<EOL>
+20-10-22 18:24:55 >> RCPT TO: <faeriemattins.r2019@vitstudent.ac.in><EOL>
+20-10-22 18:24:55 << 250 2.1.5 OK i30sm2495885pgb.81 - gsmtp<EOL>
+20-10-22 18:24:55 >> DATA<EOL>
+20-10-22 18:24:56 << 354  Go ahead i30sm2495885pgb.81 - gsmtp<EOL>
+20-10-22 18:24:56 >> Date: Thu, 22 Oct 2020 18:24:56 +0530<EOL>
+20-10-22 18:24:56 >> To: faeriemattins73191817@gmail.com<EOL>
+20-10-22 18:24:56 >> Subject: This is an automated email regarding the course registration<EOL>
+20-10-22 18:24:56 >> From:faeriemattins73191817@gmail.com <EOL>
+20-10-22 18:24:56 >> Cc:faeriemattins.r2019@vitstudent.ac.in<EOL>
+20-10-22 18:24:56 >> <EOL>
+20-10-22 18:24:56 >> Respected Sir. This Email is regarding the problems I have for the course registration. Kindly look into what I can do for the following semester.Thanking you  <EOL>
+20-10-22 18:24:56 >> .<EOL>
+20-10-22 18:24:57 << 250 2.0.0 OK  1603371296 i30sm2495885pgb.81 - gsmtp<EOL>
+20-10-22 18:24:57 >> QUIT<EOL>
+20-10-22 18:24:57 << 221 2.0.0 closing connection i30sm2495885pgb.81 - gsmtp<EOL>
+20-10-22 18:24:57 ** Disconnected.
+20-10-22 18:24:57 ** Disconnected.
+20-10-22 18:24:57 ** Disconnected.
+20-10-23 17:13:48 ** --- MESSAGE BEGIN ---
+20-10-23 17:13:48 ** To: faeriemattins73191817@gmail.com
+20-10-23 17:13:48 ** Subject: This is an automated email regarding the course registration
+20-10-23 17:13:48 ** From:faeriemattins73191817@gmail.com 
+20-10-23 17:13:48 ** Cc:faeriemattins.r2019@vitstudent.ac.in
+20-10-23 17:13:48 ** 
+20-10-23 17:13:48 ** Respected Sir. This Email is regarding the problems I have for the course registration. Kindly look into what I can do for the following semester.Thanking you  
+20-10-23 17:13:48 ** --- MESSAGE END ---
+20-10-23 17:13:49 ** Connecting to smtp.gmail.com:587
+20-10-23 17:13:49 ** Connected.
+20-10-23 17:13:49 << 220 smtp.gmail.com ESMTP g18sm1407943pgl.51 - gsmtp<EOL>
+20-10-23 17:13:49 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-23 17:13:49 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-23 17:13:49 ** Authenticating as faeriemattins73191817@gmail.com
+20-10-23 17:13:49 >> STARTTLS<EOL>
+20-10-23 17:13:49 << 220 2.0.0 Ready to start TLS<EOL>
+20-10-23 17:13:50 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-23 17:13:50 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-23 17:13:50 >> AUTH LOGIN<EOL>
+20-10-23 17:13:50 << 334 VXNlcm5hbWU6<EOL>
+20-10-23 17:13:50 >> ZmFlcmllbWF0dGluczczMTkxODE3QGdtYWlsLmNvbQ==<EOL>
+20-10-23 17:13:50 << 334 UGFzc3dvcmQ6<EOL>
+20-10-23 17:13:50 >> bmFydXRva2FuZWtpMTIz<EOL>
+20-10-23 17:13:51 << 235 2.7.0 Accepted<EOL>
+20-10-23 17:13:51 >> MAIL FROM: <faeriemattins73191817@gmail.com><EOL>
+20-10-23 17:13:51 << 250 2.1.0 OK g18sm1407943pgl.51 - gsmtp<EOL>
+20-10-23 17:13:51 >> RCPT TO: <faeriemattins73191817@gmail.com><EOL>
+20-10-23 17:13:51 << 250 2.1.5 OK g18sm1407943pgl.51 - gsmtp<EOL>
+20-10-23 17:13:51 >> RCPT TO: <faeriemattins.r2019@vitstudent.ac.in><EOL>
+20-10-23 17:13:51 << 250 2.1.5 OK g18sm1407943pgl.51 - gsmtp<EOL>
+20-10-23 17:13:51 >> DATA<EOL>
+20-10-23 17:13:52 << 354  Go ahead g18sm1407943pgl.51 - gsmtp<EOL>
+20-10-23 17:13:52 >> Date: Fri, 23 Oct 2020 17:13:52 +0530<EOL>
+20-10-23 17:13:52 >> To: faeriemattins73191817@gmail.com<EOL>
+20-10-23 17:13:52 >> Subject: This is an automated email regarding the course registration<EOL>
+20-10-23 17:13:52 >> From:faeriemattins73191817@gmail.com <EOL>
+20-10-23 17:13:52 >> Cc:faeriemattins.r2019@vitstudent.ac.in<EOL>
+20-10-23 17:13:52 >> <EOL>
+20-10-23 17:13:52 >> Respected Sir. This Email is regarding the problems I have for the course registration. Kindly look into what I can do for the following semester.Thanking you  <EOL>
+20-10-23 17:13:52 >> .<EOL>
+20-10-23 17:13:53 << 250 2.0.0 OK  1603453431 g18sm1407943pgl.51 - gsmtp<EOL>
+20-10-23 17:13:53 >> QUIT<EOL>
+20-10-23 17:13:54 << 221 2.0.0 closing connection g18sm1407943pgl.51 - gsmtp<EOL>
+20-10-23 17:13:54 ** Disconnected.
+20-10-23 17:13:54 ** Disconnected.
+20-10-23 17:13:54 ** Disconnected.
+20-10-23 19:11:51 ** --- MESSAGE BEGIN ---
+20-10-23 19:11:51 ** To: faeriemattins73191817@gmail.com
+20-10-23 19:11:51 ** Subject: This is an automated email regarding the course registration
+20-10-23 19:11:51 ** From:faeriemattins73191817@gmail.com 
+20-10-23 19:11:51 ** Cc:faeriemattins.r2019@vitstudent.ac.in
+20-10-23 19:11:51 ** 
+20-10-23 19:11:51 ** Respected Sir. This Email is regarding the problems I have for the course registration. Kindly look into what I can do for the following semester.Thanking you  
+20-10-23 19:11:51 ** --- MESSAGE END ---
+20-10-23 19:11:52 ** Connecting to smtp.gmail.com:587
+20-10-23 19:11:53 ** Connected.
+20-10-23 19:11:53 << 220 smtp.gmail.com ESMTP y124sm2137449pfy.28 - gsmtp<EOL>
+20-10-23 19:11:53 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-23 19:11:53 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-23 19:11:53 ** Authenticating as faeriemattins73191817@gmail.com
+20-10-23 19:11:53 >> STARTTLS<EOL>
+20-10-23 19:11:53 << 220 2.0.0 Ready to start TLS<EOL>
+20-10-23 19:11:54 >> EHLO DESKTOP-MAHC83G<EOL>
+20-10-23 19:11:54 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-10-23 19:11:54 >> AUTH LOGIN<EOL>
+20-10-23 19:11:54 << 334 VXNlcm5hbWU6<EOL>
+20-10-23 19:11:54 >> ZmFlcmllbWF0dGluczczMTkxODE3QGdtYWlsLmNvbQ==<EOL>
+20-10-23 19:11:54 << 334 UGFzc3dvcmQ6<EOL>
+20-10-23 19:11:54 >> bmFydXRva2FuZWtpMTIz<EOL>
+20-10-23 19:11:55 << 235 2.7.0 Accepted<EOL>
+20-10-23 19:11:55 >> MAIL FROM: <faeriemattins73191817@gmail.com><EOL>
+20-10-23 19:11:55 << 250 2.1.0 OK y124sm2137449pfy.28 - gsmtp<EOL>
+20-10-23 19:11:55 >> RCPT TO: <faeriemattins73191817@gmail.com><EOL>
+20-10-23 19:11:55 << 250 2.1.5 OK y124sm2137449pfy.28 - gsmtp<EOL>
+20-10-23 19:11:55 >> RCPT TO: <faeriemattins.r2019@vitstudent.ac.in><EOL>
+20-10-23 19:11:55 << 250 2.1.5 OK y124sm2137449pfy.28 - gsmtp<EOL>
+20-10-23 19:11:55 >> DATA<EOL>
+20-10-23 19:11:56 << 354  Go ahead y124sm2137449pfy.28 - gsmtp<EOL>
+20-10-23 19:11:56 >> Date: Fri, 23 Oct 2020 19:11:56 +0530<EOL>
+20-10-23 19:11:56 >> To: faeriemattins73191817@gmail.com<EOL>
+20-10-23 19:11:56 >> Subject: This is an automated email regarding the course registration<EOL>
+20-10-23 19:11:56 >> From:faeriemattins73191817@gmail.com <EOL>
+20-10-23 19:11:56 >> Cc:faeriemattins.r2019@vitstudent.ac.in<EOL>
+20-10-23 19:11:56 >> <EOL>
+20-10-23 19:11:56 >> Respected Sir. This Email is regarding the problems I have for the course registration. Kindly look into what I can do for the following semester.Thanking you  <EOL>
+20-10-23 19:11:56 >> .<EOL>
+20-10-23 19:11:57 << 250 2.0.0 OK  1603460515 y124sm2137449pfy.28 - gsmtp<EOL>
+20-10-23 19:11:57 >> QUIT<EOL>
+20-10-23 19:11:57 << 221 2.0.0 closing connection y124sm2137449pfy.28 - gsmtp<EOL>
+20-10-23 19:11:57 ** Disconnected.
+20-10-23 19:11:57 ** Disconnected.
+20-10-23 19:11:57 ** Disconnected.
+20-11-09 17:01:55 ** --- MESSAGE BEGIN ---
+20-11-09 17:01:55 ** To: faeriemattins73191817@gmail.com
+20-11-09 17:01:55 ** Subject: This is an automated email regarding the course registration
+20-11-09 17:01:55 ** From:faeriemattins73191817@gmail.com 
+20-11-09 17:01:55 ** Cc:faeriemattins.r2019@vitstudent.ac.in
+20-11-09 17:01:55 ** 
+20-11-09 17:01:55 ** Respected Sir. This Email is regarding the problems I have for the course registration. Kindly look into what I can do for the following semester.Thanking you  
+20-11-09 17:01:55 ** --- MESSAGE END ---
+20-11-09 17:01:56 ** Connecting to smtp.gmail.com:587
+20-11-09 17:01:58 ** Connected.
+20-11-09 17:01:58 << 220 smtp.gmail.com ESMTP fz5sm4291177pjb.49 - gsmtp<EOL>
+20-11-09 17:01:58 >> EHLO DESKTOP-MAHC83G<EOL>
+20-11-09 17:01:58 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-11-09 17:01:58 ** Authenticating as faeriemattins73191817@gmail.com
+20-11-09 17:01:58 >> STARTTLS<EOL>
+20-11-09 17:01:59 << 220 2.0.0 Ready to start TLS<EOL>
+20-11-09 17:01:59 >> EHLO DESKTOP-MAHC83G<EOL>
+20-11-09 17:01:59 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-11-09 17:01:59 >> AUTH LOGIN<EOL>
+20-11-09 17:01:59 << 334 VXNlcm5hbWU6<EOL>
+20-11-09 17:01:59 >> ZmFlcmllbWF0dGluczczMTkxODE3QGdtYWlsLmNvbQ==<EOL>
+20-11-09 17:01:59 << 334 UGFzc3dvcmQ6<EOL>
+20-11-09 17:01:59 >> bmFydXRva2FuZWtpMTIz<EOL>
+20-11-09 17:02:00 << 235 2.7.0 Accepted<EOL>
+20-11-09 17:02:00 >> MAIL FROM: <faeriemattins73191817@gmail.com><EOL>
+20-11-09 17:02:00 << 250 2.1.0 OK fz5sm4291177pjb.49 - gsmtp<EOL>
+20-11-09 17:02:00 >> RCPT TO: <faeriemattins73191817@gmail.com><EOL>
+20-11-09 17:02:00 << 250 2.1.5 OK fz5sm4291177pjb.49 - gsmtp<EOL>
+20-11-09 17:02:00 >> RCPT TO: <faeriemattins.r2019@vitstudent.ac.in><EOL>
+20-11-09 17:02:00 << 250 2.1.5 OK fz5sm4291177pjb.49 - gsmtp<EOL>
+20-11-09 17:02:00 >> DATA<EOL>
+20-11-09 17:02:01 << 354  Go ahead fz5sm4291177pjb.49 - gsmtp<EOL>
+20-11-09 17:02:02 >> Date: Mon, 9 Nov 2020 17:02:01 +0530<EOL>
+20-11-09 17:02:02 >> To: faeriemattins73191817@gmail.com<EOL>
+20-11-09 17:02:02 >> Subject: This is an automated email regarding the course registration<EOL>
+20-11-09 17:02:02 >> From:faeriemattins73191817@gmail.com <EOL>
+20-11-09 17:02:02 >> Cc:faeriemattins.r2019@vitstudent.ac.in<EOL>
+20-11-09 17:02:02 >> <EOL>
+20-11-09 17:02:02 >> Respected Sir. This Email is regarding the problems I have for the course registration. Kindly look into what I can do for the following semester.Thanking you  <EOL>
+20-11-09 17:02:02 >> .<EOL>
+20-11-09 17:02:03 << 250 2.0.0 OK  1604921521 fz5sm4291177pjb.49 - gsmtp<EOL>
+20-11-09 17:02:03 >> QUIT<EOL>
+20-11-09 17:02:03 << 221 2.0.0 closing connection fz5sm4291177pjb.49 - gsmtp<EOL>
+20-11-09 17:02:03 ** Disconnecting from smtp.gmail.com:587
+20-11-09 17:02:03 ** Disconnected.
+20-11-09 17:02:03 ** Disconnected.
+20-11-09 19:41:20 ** --- MESSAGE BEGIN ---
+20-11-09 19:41:20 ** To: faeriemattins73191817@gmail.com
+20-11-09 19:41:20 ** Subject: This is an automated email regarding the course registration
+20-11-09 19:41:20 ** From:faeriemattins73191817@gmail.com 
+20-11-09 19:41:20 ** Cc:faeriemattins.r2019@vitstudent.ac.in
+20-11-09 19:41:20 ** 
+20-11-09 19:41:20 ** Respected Sir. This Email is regarding the problems I have for the course registration. Kindly look into what I can do for the following semester.Thanking you  
+20-11-09 19:41:20 ** --- MESSAGE END ---
+20-11-09 19:41:21 ** Connecting to smtp.gmail.com:587
+20-11-09 19:41:21 ** Connected.
+20-11-09 19:41:22 << 220 smtp.gmail.com ESMTP v125sm11067565pfv.75 - gsmtp<EOL>
+20-11-09 19:41:22 >> EHLO DESKTOP-MAHC83G<EOL>
+20-11-09 19:41:22 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-11-09 19:41:22 ** Authenticating as faeriemattins73191817@gmail.com
+20-11-09 19:41:22 >> STARTTLS<EOL>
+20-11-09 19:41:22 << 220 2.0.0 Ready to start TLS<EOL>
+20-11-09 19:41:22 >> EHLO DESKTOP-MAHC83G<EOL>
+20-11-09 19:41:22 << 250-smtp.gmail.com at your service, [49.205.86.114]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20-11-09 19:41:22 >> AUTH LOGIN<EOL>
+20-11-09 19:41:22 << 334 VXNlcm5hbWU6<EOL>
+20-11-09 19:41:22 >> ZmFlcmllbWF0dGluczczMTkxODE3QGdtYWlsLmNvbQ==<EOL>
+20-11-09 19:41:23 << 334 UGFzc3dvcmQ6<EOL>
+20-11-09 19:41:23 >> bmFydXRva2FuZWtpMTIz<EOL>
+20-11-09 19:41:23 << 235 2.7.0 Accepted<EOL>
+20-11-09 19:41:23 >> MAIL FROM: <faeriemattins73191817@gmail.com><EOL>
+20-11-09 19:41:23 << 250 2.1.0 OK v125sm11067565pfv.75 - gsmtp<EOL>
+20-11-09 19:41:23 >> RCPT TO: <faeriemattins73191817@gmail.com><EOL>
+20-11-09 19:41:24 << 250 2.1.5 OK v125sm11067565pfv.75 - gsmtp<EOL>
+20-11-09 19:41:24 >> RCPT TO: <faeriemattins.r2019@vitstudent.ac.in><EOL>
+20-11-09 19:41:24 << 250 2.1.5 OK v125sm11067565pfv.75 - gsmtp<EOL>
+20-11-09 19:41:24 >> DATA<EOL>
+20-11-09 19:41:24 << 354  Go ahead v125sm11067565pfv.75 - gsmtp<EOL>
+20-11-09 19:41:24 >> Date: Mon, 9 Nov 2020 19:41:24 +0530<EOL>
+20-11-09 19:41:24 >> To: faeriemattins73191817@gmail.com<EOL>
+20-11-09 19:41:24 >> Subject: This is an automated email regarding the course registration<EOL>
+20-11-09 19:41:24 >> From:faeriemattins73191817@gmail.com <EOL>
+20-11-09 19:41:24 >> Cc:faeriemattins.r2019@vitstudent.ac.in<EOL>
+20-11-09 19:41:24 >> <EOL>
+20-11-09 19:41:24 >> Respected Sir. This Email is regarding the problems I have for the course registration. Kindly look into what I can do for the following semester.Thanking you  <EOL>
+20-11-09 19:41:24 >> .<EOL>
+20-11-09 19:41:26 << 250 2.0.0 OK  1604931085 v125sm11067565pfv.75 - gsmtp<EOL>
+20-11-09 19:41:26 >> QUIT<EOL>
+20-11-09 19:41:26 << 221 2.0.0 closing connection v125sm11067565pfv.75 - gsmtp<EOL>
+20-11-09 19:41:26 ** Disconnecting from smtp.gmail.com:587
+20-11-09 19:41:26 ** Disconnected.
+20-11-09 19:41:26 ** Disconnected.
